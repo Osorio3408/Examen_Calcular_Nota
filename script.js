@@ -33,7 +33,6 @@ first_note.addEventListener("input", () => {
   if(first_note.value != " " ){
     input_one_empty = true;
     if(input_second_empty === true){
-      alert(`To pass in good you should have the note three in: ${3.5 - ((first_note.value + second_note.value))}`)
     }
   }
 
@@ -50,7 +49,7 @@ second_note.addEventListener("input", () => {
   if(second_note.value != " "){
     input_second_empty = true;
     if(input_one_empty === true){
-      alert(`To pass in good you should have the note three in: ${3.5 - ((first_note.value + second_note.value))}`)
+
     }
   }
 
