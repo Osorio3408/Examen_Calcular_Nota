@@ -5,13 +5,56 @@
 
 body{
   margin: 10px;
+  text-align: center;
 }
+
 
 form{
-  display: flex;
-  flex-direction: column;
+
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
 fieldset{
+  display: flex;
+  flex-direction: column;
   border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button{
+  width: 100px;
+  margin-top: 10px;
+  background-color:   rgb(27, 12, 240);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 6px;
+  border: none;
+}
+
+label{
+  padding: 10px;
+}
+
+button:hover{
+  text-decoration: underline;
+  background-color:rgb(28, 16, 197);
+}
+
+button:disabled{
+  background-color: rgba(147, 147, 147, 0.625);
+  text-decoration: none;
 }
